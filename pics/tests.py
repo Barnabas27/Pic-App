@@ -29,3 +29,8 @@ class CategoryTestClass(TestCase):
         self.Nature.save()
         category = Category.objects.all()
         self.assertTrue(len(category)>0)
+        
+# class PicTestClass(TestCase):
+#     def setUp(self):
+        
+#         self.image = Pic()
